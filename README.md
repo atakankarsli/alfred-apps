@@ -62,11 +62,50 @@ Every app is a standalone SwiftUI project. Each was built from scratch with its 
 
 ## How It Was Built
 
-Alfred runs as a background service on macOS, connected to Telegram. The user sent natural language requests like "make me a puzzle game" or "build 20 apps in 20 days" and Alfred autonomously:
+Alfred runs as a background service on macOS, connected to Telegram. The user sent natural language requests like "make me a puzzle game" or "build 20 apps in 20 days." Alfred autonomously researched, designed, coded, built, fixed errors, and sent back simulator screenshots — all through chat.
 
-1. Researched competitors and game mechanics (web search)
-2. Designed the architecture and progression systems
-3. Wrote all Swift/SwiftUI code
-4. Built with `xcodebuild`
-5. Fixed any compile errors
-6. Took simulator screenshots and sent them back via Telegram
+## Evolution: How Alfred Learned to Build Apps
+
+### Phase 1: One-at-a-time, heavy debugging (Feb 27 – Mar 4)
+
+The first 3 apps (ColorFlow → Lumina → NOVA) were iterative rewrites of the same project. Each required significant debugging: missing types, broken views, SwiftData schema crashes, environment setup issues. Alfred would write code, hit 5–10 compile errors, fix them one by one, and often break something else in the process.
+
+**Key struggle:** Full-file rewrites would accidentally delete shared components (FloatingOrbsView, BounceButtonStyle) defined at the bottom of HomeView.swift.
+
+### Phase 2: Template discovery, batch production (Mar 8–9)
+
+The user asked for 8 apps built from a shared base. Alfred copied ColorFlow's project structure and adapted it per app. This was the breakthrough — a reusable skeleton with known file layout. Production speed jumped from 1 app/day to 4 apps/day.
+
+**Key insight:** Alfred started recognizing its own recurring errors (AppTheme vs Theme, bestStreak vs longestStreak) and pre-emptively avoiding them.
+
+### Phase 3: Scheduled automation, 20-day marathon (Mar 9 – Apr 28)
+
+The user scheduled 60 cron tasks (3 per day: research, build, polish). Alfred ran autonomously — morning research with web search and competitor analysis, afternoon builds, evening polish. By Day 5+, most apps compiled on the first try.
+
+**Key evolution:** Alfred went from "write everything → build → fix 8 errors → build again" to "write everything correctly the first time → build → 0 errors."
+
+## What Went Wrong (Recurring Failures)
+
+| Problem | Frequency | Root Cause |
+|---------|-----------|------------|
+| SwiftUI "expression too complex" | Every 2–3 apps | Nested view builders exceeding Swift's type checker limits |
+| Shared components lost on file rewrite | First 10 apps | Components co-located at bottom of HomeView.swift, deleted during full rewrites |
+| Type name mismatches | Every new app | Inconsistent naming between model layer and views (Theme vs AppTheme, etc.) |
+| Stale scheduled task cache | Ongoing | In-memory scheduler kept firing old prompts after DB updates |
+| Context window exhaustion | ~10 times | Sessions grew past 120K tokens, SDK threw "prompt is too long" |
+| Simulator screenshot failures | Occasional | Headless simulator can't tap UI elements — required code workarounds |
+| @MainActor concurrency errors | Early apps | `deinit` can't reference `@MainActor` properties, `Task { [weak self] }` patterns |
+
+## What Should Have Been Done Differently
+
+**1. Extract a real project template early.** Alfred kept copying ColorFlow and manually renaming things. A proper Xcode template with placeholder names would have eliminated the entire class of type-name mismatch errors.
+
+**2. Shared components in their own files from Day 1.** FloatingOrbsView and BounceButtonStyle being at the bottom of HomeView.swift caused repeated breakage. Moving them to dedicated files would have been a 5-minute fix that saved hours of debugging.
+
+**3. Build before writing all files.** Alfred's pattern was: write 30+ Swift files → build → fix errors. A better approach: write the core model + one view → build → add views incrementally. Catch errors early instead of debugging 8 failures at once.
+
+**4. Session management.** The 20-app marathon ran in a single growing session that repeatedly hit context limits. Should have started a fresh session per app from the beginning. (This was later fixed in Alfred's core with auto-compaction at 70% and overflow recovery.)
+
+**5. Scheduled task architecture.** The cron scheduler cached prompts in memory and didn't pick up DB changes. This caused massive noise — dozens of stale tasks firing alongside new ones. Needed a cache-invalidation mechanism or DB-only reads.
+
+**6. Validate UI, not just compilation.** Alfred verified "0 errors, 0 warnings" but rarely checked if screens were actually reachable. Multiple apps had unreachable views (e.g., SHARD's Lab screen had no navigation path from HomeView). A simple "can I navigate to every screen?" check would have caught these.
