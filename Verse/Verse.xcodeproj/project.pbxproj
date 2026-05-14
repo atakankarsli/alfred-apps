@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* VerseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001; };
+		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002; };
+		A10003 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003; };
+		A10004 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004; };
+		A10005 /* PoetryForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005; };
+		A10006 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006; };
+		A10007 /* VerseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007; };
+		A10008 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008; };
+		A10009 /* VerseMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009; };
+		A10010 /* SyllableDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010; };
+		A10011 /* RhymeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011; };
+		A10012 /* VersePuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012; };
+		A10013 /* WordBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013; };
+		A10014 /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014; };
+		A10015 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015; };
+		A10016 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10016; };
+		A10017 /* SettingsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10017; };
+		A10018 /* StatsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10018; };
+		A10019 /* AchievementRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10019; };
+		A10020 /* VerseGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10020; };
+		A10021 /* VerseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10021; };
+		A10022 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10022; };
+		A10023 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10023; };
+		A10024 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10024; };
+		A10025 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10025; };
+		A10026 /* StatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10026; };
+		A10027 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10027; };
+		A10028 /* ChapterMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10028; };
+		A10029 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10029; };
+		A10030 /* GlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10030; };
+		A10031 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10031; };
+		A10032 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10032; };
+		A10033 /* TimeInterval+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10033; };
+		A10034 /* View+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10034; };
+		A10035 /* AllThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10035; };
+		A10036 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10036; };
+		A10037 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10037; };
+		A10038 /* ThemeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10038; };
+		A10039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10039; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C10001 /* Verse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10001 /* VerseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseApp.swift; sourceTree = "<group>"; };
+		B10002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10003 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B10004 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		B10005 /* PoetryForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryForm.swift; sourceTree = "<group>"; };
+		B10006 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		B10007 /* VerseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseConfig.swift; sourceTree = "<group>"; };
+		B10008 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		B10009 /* VerseMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseMode.swift; sourceTree = "<group>"; };
+		B10010 /* SyllableDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableDictionary.swift; sourceTree = "<group>"; };
+		B10011 /* RhymeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymeEngine.swift; sourceTree = "<group>"; };
+		B10012 /* VersePuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersePuzzle.swift; sourceTree = "<group>"; };
+		B10013 /* WordBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBank.swift; sourceTree = "<group>"; };
+		B10014 /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		B10015 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		B10016 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B10017 /* SettingsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRecord.swift; sourceTree = "<group>"; };
+		B10018 /* StatsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRecord.swift; sourceTree = "<group>"; };
+		B10019 /* AchievementRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRecord.swift; sourceTree = "<group>"; };
+		B10020 /* VerseGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseGameView.swift; sourceTree = "<group>"; };
+		B10021 /* VerseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseViewModel.swift; sourceTree = "<group>"; };
+		B10022 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B10023 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B10024 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10025 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		B10026 /* StatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailView.swift; sourceTree = "<group>"; };
+		B10027 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		B10028 /* ChapterMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterMapView.swift; sourceTree = "<group>"; };
+		B10029 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		B10030 /* GlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassButton.swift; sourceTree = "<group>"; };
+		B10031 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		B10032 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		B10033 /* TimeInterval+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Formatting.swift"; sourceTree = "<group>"; };
+		B10034 /* View+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Theme.swift"; sourceTree = "<group>"; };
+		B10035 /* AllThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllThemes.swift; sourceTree = "<group>"; };
+		B10036 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B10037 /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		B10038 /* ThemeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEnvironment.swift; sourceTree = "<group>"; };
+		B10039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10001 = {
+			isa = PBXGroup;
+			children = (
+				E10002 /* Verse */,
+				E10003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10002 /* Verse */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* VerseApp.swift */,
+				B10002 /* ContentView.swift */,
+				E10004 /* App */,
+				E10005 /* Core */,
+				E10010 /* Data */,
+				E10012 /* Features */,
+				E10019 /* Shared */,
+				B10039 /* Assets.xcassets */,
+			);
+			path = Verse;
+			sourceTree = "<group>";
+		};
+		E10003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10001 /* Verse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10003 /* AppState.swift */,
+				B10004 /* Route.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E10005 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E10006 /* Models */,
+				E10007 /* Puzzle */,
+				E10008 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E10006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10005 /* PoetryForm.swift */,
+				B10006 /* Chapter.swift */,
+				B10007 /* VerseConfig.swift */,
+				B10008 /* Achievement.swift */,
+				B10009 /* VerseMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E10007 /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				B10010 /* SyllableDictionary.swift */,
+				B10011 /* RhymeEngine.swift */,
+				B10012 /* VersePuzzle.swift */,
+				B10013 /* WordBank.swift */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
+		E10008 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10014 /* HapticsService.swift */,
+				B10015 /* SoundService.swift */,
+				B10016 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E10010 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E10011 /* SwiftData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E10011 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				B10017 /* SettingsRecord.swift */,
+				B10018 /* StatsRecord.swift */,
+				B10019 /* AchievementRecord.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		E10012 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E10013 /* Game */,
+				E10014 /* Home */,
+				E10015 /* Onboarding */,
+				E10016 /* Settings */,
+				E10017 /* Stats */,
+				E10018 /* Achievements */,
+				E10025 /* World */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E10013 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				B10020 /* VerseGameView.swift */,
+				B10021 /* VerseViewModel.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		E10014 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B10022 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E10015 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B10023 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E10016 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B10024 /* SettingsView.swift */,
+				B10025 /* ThemePickerView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E10017 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				B10026 /* StatsDetailView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		E10018 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				B10027 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		E10025 /* World */ = {
+			isa = PBXGroup;
+			children = (
+				B10028 /* ChapterMapView.swift */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		E10019 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E10020 /* Components */,
+				E10021 /* Extensions */,
+				E10022 /* Theme */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E10020 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B10029 /* ConfettiView.swift */,
+				B10030 /* GlassButton.swift */,
+				B10031 /* GlassCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E10021 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B10032 /* Color+Extensions.swift */,
+				B10033 /* TimeInterval+Formatting.swift */,
+				B10034 /* View+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E10022 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B10035 /* AllThemes.swift */,
+				B10036 /* Theme.swift */,
+				B10037 /* ThemeColors.swift */,
+				B10038 /* ThemeEnvironment.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10001 /* Verse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10004;
+			buildPhases = (
+				F10002 /* Sources */,
+				D10001 /* Frameworks */,
+				F10003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verse;
+			productName = Verse;
+			productReference = C10001 /* Verse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F10001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F10006;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10001;
+			productRefGroup = E10003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10001 /* Verse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10039 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* VerseApp.swift in Sources */,
+				A10002 /* ContentView.swift in Sources */,
+				A10003 /* AppState.swift in Sources */,
+				A10004 /* Route.swift in Sources */,
+				A10005 /* PoetryForm.swift in Sources */,
+				A10006 /* Chapter.swift in Sources */,
+				A10007 /* VerseConfig.swift in Sources */,
+				A10008 /* Achievement.swift in Sources */,
+				A10009 /* VerseMode.swift in Sources */,
+				A10010 /* SyllableDictionary.swift in Sources */,
+				A10011 /* RhymeEngine.swift in Sources */,
+				A10012 /* VersePuzzle.swift in Sources */,
+				A10013 /* WordBank.swift in Sources */,
+				A10014 /* HapticsService.swift in Sources */,
+				A10015 /* SoundService.swift in Sources */,
+				A10016 /* NotificationService.swift in Sources */,
+				A10017 /* SettingsRecord.swift in Sources */,
+				A10018 /* StatsRecord.swift in Sources */,
+				A10019 /* AchievementRecord.swift in Sources */,
+				A10020 /* VerseGameView.swift in Sources */,
+				A10021 /* VerseViewModel.swift in Sources */,
+				A10022 /* HomeView.swift in Sources */,
+				A10023 /* OnboardingView.swift in Sources */,
+				A10024 /* SettingsView.swift in Sources */,
+				A10025 /* ThemePickerView.swift in Sources */,
+				A10026 /* StatsDetailView.swift in Sources */,
+				A10027 /* AchievementsView.swift in Sources */,
+				A10028 /* ChapterMapView.swift in Sources */,
+				A10029 /* ConfettiView.swift in Sources */,
+				A10030 /* GlassButton.swift in Sources */,
+				A10031 /* GlassCard.swift in Sources */,
+				A10032 /* Color+Extensions.swift in Sources */,
+				A10033 /* TimeInterval+Formatting.swift in Sources */,
+				A10034 /* View+Theme.swift in Sources */,
+				A10035 /* AllThemes.swift in Sources */,
+				A10036 /* Theme.swift in Sources */,
+				A10037 /* ThemeColors.swift in Sources */,
+				A10038 /* ThemeEnvironment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G10001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G10002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G10003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Verse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.Verse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		G10004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Verse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.Verse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10006 /* Build configuration list for PBXProject "Verse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10001 /* Debug */,
+				G10002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10004 /* Build configuration list for PBXNativeTarget "Verse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10003 /* Debug */,
+				G10004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10005 /* Project object */;
+}

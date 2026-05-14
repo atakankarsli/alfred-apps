@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062D20114A7DEDA38E99C53B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155A357947EE969D83158B03 /* ContentView.swift */; };
+		1507AA1A586E93333C55E11D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691D3E342D90932EA3C6B73 /* Theme.swift */; };
+		15133A1DA74E3C4F25F06925 /* WaveWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63BBD095018F9B33E344246 /* WaveWorld.swift */; };
+		19BAFA0000ED83606C4CB08F /* FloatingOrbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF84EC58F625EC86A5235CE /* FloatingOrbsView.swift */; };
+		29FA05F0F26F72F4D72AFDDD /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8E9FDF27E6A6C00047B1D /* HapticsService.swift */; };
+		2B05951E427E0070D6A8BABD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08375DA9609393F0CF09A1F4 /* HomeView.swift */; };
+		2BE8852E511D1236233D7411 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5E8FC106E1B61A5C49CCF /* ThemePickerView.swift */; };
+		2F7944C46E5BA115FDB8C0F8 /* WorldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7774945B2F1B93892E3F /* WorldsView.swift */; };
+		3515A740EC39E30DD45056DB /* SeededRNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660544DB54437FC905B92A16 /* SeededRNG.swift */; };
+		36EED0047765DCE74CEBEE40 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A9AD09AE1041C26E5FC54 /* GlassCard.swift */; };
+		37C727B593CF8A2F092AF017 /* TidalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B3EFEA37509C39E86040F /* TidalApp.swift */; };
+		3AE9A15DDFE66B2D970CF3A8 /* WaveSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D679F344C1955A5C4FB4E /* WaveSource.swift */; };
+		42ADD8D180640ED6CE566CCE /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4382EA86FFEF4E020FA00 /* ConfettiView.swift */; };
+		4BDAA6C66BAAA433CE5F20CB /* AllThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548061DE041D328B9DA17031 /* AllThemes.swift */; };
+		63F903B984754981836F1457 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4317CC2B50C71512491936F9 /* SoundService.swift */; };
+		6513F2C88CE182BA841D3F39 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D741B74E19BD65977A137092 /* Color+Extensions.swift */; };
+		695B3F4443A48B76A92A7DC3 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A057E85FF535DA14E97EE236 /* AchievementsView.swift */; };
+		6B1CF8986FF048DC295CA7CB /* TidalLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9CB6F75298C72BE52B97ED /* TidalLevel.swift */; };
+		71225091FB650A2944CA95D5 /* StatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965079D98BE20CD744675E3E /* StatsDetailView.swift */; };
+		721D7511B840D33682AFB59B /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5A667F1FCC4B719EF8928 /* Route.swift */; };
+		75879BA984568C91DA2B6ACD /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEDBA8B196151B7E65CB17B /* AppState.swift */; };
+		7F5197CC54E3FF196F3D4A8B /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C41E6A77CB444ED72BDF59 /* Achievement.swift */; };
+		86FC8E050D4F33CC8AD0CE66 /* StatsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081C7A780B08787AFCCA9C31 /* StatsRecord.swift */; };
+		88B5665CE1D8987900685845 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441DD95E91423ACC39F9B481 /* OnboardingView.swift */; };
+		9776B9D2F8FF4FC6154A7306 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF897295828027F995AAB4D9 /* SettingsView.swift */; };
+		A35812E3556A3079B368820E /* TidalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F5A54AC705B73EE3D98654 /* TidalConfig.swift */; };
+		B44E5EC0803C444FA7CF1E3C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF482104E025FE1529A3B8AE /* NotificationService.swift */; };
+		C20C24F00566B2B95D2FFE53 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DCCB6377E154BBEF3B89A /* PlayViewModel.swift */; };
+		C272ABB2F4FFBF4B8CE1090D /* LevelRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7B26589896A1D40AEC8885 /* LevelRecord.swift */; };
+		C78207C2E68E52CB92536B5C /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4657D727B6D729BE7E0464 /* PlayView.swift */; };
+		CF5DA8D0D116BBD797F9192E /* SettingsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F173CA91404729A7459DFB /* SettingsRecord.swift */; };
+		DE7ACC59F3445F82756762C0 /* WaveEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05FDB95EE35E870B442818 /* WaveEngine.swift */; };
+		E272CF22686347A47C2F19A6 /* GlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331AEA5D2F1EEA8E5147DB37 /* GlassButton.swift */; };
+		E49EFC3DB57A9749C5B7E1E2 /* ThemeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E33BDBAC46F703DC292996 /* ThemeEnvironment.swift */; };
+		E844A48C77C15A74B15134FB /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46676F416BC83078366100 /* LevelData.swift */; };
+		F4515E527A3597CBE63D5F9E /* AchievementRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C026FF467D4A3C3E8557FB6 /* AchievementRecord.swift */; };
+		F915BA3EC7FF1B8CB53D1CA1 /* WaveCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2020BD15E325E8EE6153808 /* WaveCanvasView.swift */; };
+		FBB21B7B9A19670A1779948B /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3186808704F05BD00033C /* ThemeColors.swift */; };
+		FF34D16D19D0CCA6A29AAE55 /* View+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7787A73953F0BB604326F934 /* View+Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		081C7A780B08787AFCCA9C31 /* StatsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRecord.swift; sourceTree = "<group>"; };
+		08375DA9609393F0CF09A1F4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0C026FF467D4A3C3E8557FB6 /* AchievementRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRecord.swift; sourceTree = "<group>"; };
+		155A357947EE969D83158B03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17A3186808704F05BD00033C /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		181DCCB6377E154BBEF3B89A /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
+		1C05FDB95EE35E870B442818 /* WaveEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveEngine.swift; sourceTree = "<group>"; };
+		2691D3E342D90932EA3C6B73 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2AF84EC58F625EC86A5235CE /* FloatingOrbsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingOrbsView.swift; sourceTree = "<group>"; };
+		2F8B3EFEA37509C39E86040F /* TidalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalApp.swift; sourceTree = "<group>"; };
+		331AEA5D2F1EEA8E5147DB37 /* GlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassButton.swift; sourceTree = "<group>"; };
+		34E33BDBAC46F703DC292996 /* ThemeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEnvironment.swift; sourceTree = "<group>"; };
+		4317CC2B50C71512491936F9 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		441DD95E91423ACC39F9B481 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4C7B26589896A1D40AEC8885 /* LevelRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelRecord.swift; sourceTree = "<group>"; };
+		4ECD7774945B2F1B93892E3F /* WorldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldsView.swift; sourceTree = "<group>"; };
+		548061DE041D328B9DA17031 /* AllThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllThemes.swift; sourceTree = "<group>"; };
+		5B7D679F344C1955A5C4FB4E /* WaveSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveSource.swift; sourceTree = "<group>"; };
+		62F173CA91404729A7459DFB /* SettingsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRecord.swift; sourceTree = "<group>"; };
+		660544DB54437FC905B92A16 /* SeededRNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeededRNG.swift; sourceTree = "<group>"; };
+		6A9CB6F75298C72BE52B97ED /* TidalLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalLevel.swift; sourceTree = "<group>"; };
+		7787A73953F0BB604326F934 /* View+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Theme.swift"; sourceTree = "<group>"; };
+		7D4657D727B6D729BE7E0464 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		965079D98BE20CD744675E3E /* StatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailView.swift; sourceTree = "<group>"; };
+		A057E85FF535DA14E97EE236 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		A63BBD095018F9B33E344246 /* WaveWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveWorld.swift; sourceTree = "<group>"; };
+		ABD4382EA86FFEF4E020FA00 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		ABEDBA8B196151B7E65CB17B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AE46676F416BC83078366100 /* LevelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelData.swift; sourceTree = "<group>"; };
+		AF482104E025FE1529A3B8AE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B2020BD15E325E8EE6153808 /* WaveCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveCanvasView.swift; sourceTree = "<group>"; };
+		B6F5A54AC705B73EE3D98654 /* TidalConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalConfig.swift; sourceTree = "<group>"; };
+		C0C8E9FDF27E6A6C00047B1D /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		C1E5E8FC106E1B61A5C49CCF /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		CC4A9AD09AE1041C26E5FC54 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		D6C41E6A77CB444ED72BDF59 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		D741B74E19BD65977A137092 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		DBA5A667F1FCC4B719EF8928 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		ED1D8BA0D498247195DFB77E /* Tidal.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tidal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF897295828027F995AAB4D9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		009AF11D30FA42258171F6FB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				441DD95E91423ACC39F9B481 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		25AB27FA2C0F02B0A1D25630 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				548061DE041D328B9DA17031 /* AllThemes.swift */,
+				2691D3E342D90932EA3C6B73 /* Theme.swift */,
+				17A3186808704F05BD00033C /* ThemeColors.swift */,
+				34E33BDBAC46F703DC292996 /* ThemeEnvironment.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		299845E2E8DD54D66BDC55E7 = {
+			isa = PBXGroup;
+			children = (
+				54949A394144D681B883263F /* Tidal */,
+				3868C4BA821E10FF6F3AE97B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D9F8C0702735E6832F62E44 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ABD4382EA86FFEF4E020FA00 /* ConfettiView.swift */,
+				2AF84EC58F625EC86A5235CE /* FloatingOrbsView.swift */,
+				331AEA5D2F1EEA8E5147DB37 /* GlassButton.swift */,
+				CC4A9AD09AE1041C26E5FC54 /* GlassCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		369EFF652441BB7854F1EDAE /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				A057E85FF535DA14E97EE236 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		3868C4BA821E10FF6F3AE97B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D8BA0D498247195DFB77E /* Tidal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443AC59A1FD54951BE62D0B0 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				7D4657D727B6D729BE7E0464 /* PlayView.swift */,
+				181DCCB6377E154BBEF3B89A /* PlayViewModel.swift */,
+				B2020BD15E325E8EE6153808 /* WaveCanvasView.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		54949A394144D681B883263F /* Tidal */ = {
+			isa = PBXGroup;
+			children = (
+				155A357947EE969D83158B03 /* ContentView.swift */,
+				2F8B3EFEA37509C39E86040F /* TidalApp.swift */,
+				70F38568510C15B7D0EDECAD /* App */,
+				703DAAE7BB96C804F4DBA030 /* Core */,
+				B095505708A0B55A0C1B3A99 /* Data */,
+				8BB64B4D8D8D3E0F4F92A2E3 /* Features */,
+				F496B303BFAC1469E0AA819B /* Shared */,
+			);
+			path = Tidal;
+			sourceTree = "<group>";
+		};
+		560A0EF4CDA73B57BB1DAB2D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				08375DA9609393F0CF09A1F4 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6203DCFEDFC8A2373D20C37E /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				AE46676F416BC83078366100 /* LevelData.swift */,
+				660544DB54437FC905B92A16 /* SeededRNG.swift */,
+				1C05FDB95EE35E870B442818 /* WaveEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		631556F788A388671978DEB1 /* Worlds */ = {
+			isa = PBXGroup;
+			children = (
+				4ECD7774945B2F1B93892E3F /* WorldsView.swift */,
+			);
+			path = Worlds;
+			sourceTree = "<group>";
+		};
+		703DAAE7BB96C804F4DBA030 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6203DCFEDFC8A2373D20C37E /* Engine */,
+				A0A9EA70729A730033CBC75B /* Models */,
+				B3FC2C8B56DDEFC3A8924DA4 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		70F38568510C15B7D0EDECAD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ABEDBA8B196151B7E65CB17B /* AppState.swift */,
+				DBA5A667F1FCC4B719EF8928 /* Route.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72E575CA8795797565CB3A39 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FF897295828027F995AAB4D9 /* SettingsView.swift */,
+				C1E5E8FC106E1B61A5C49CCF /* ThemePickerView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8BB64B4D8D8D3E0F4F92A2E3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				369EFF652441BB7854F1EDAE /* Achievements */,
+				560A0EF4CDA73B57BB1DAB2D /* Home */,
+				009AF11D30FA42258171F6FB /* Onboarding */,
+				443AC59A1FD54951BE62D0B0 /* Play */,
+				72E575CA8795797565CB3A39 /* Settings */,
+				AEE04E0BDADE02822DDACDA2 /* Stats */,
+				631556F788A388671978DEB1 /* Worlds */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A0A9EA70729A730033CBC75B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6C41E6A77CB444ED72BDF59 /* Achievement.swift */,
+				B6F5A54AC705B73EE3D98654 /* TidalConfig.swift */,
+				6A9CB6F75298C72BE52B97ED /* TidalLevel.swift */,
+				5B7D679F344C1955A5C4FB4E /* WaveSource.swift */,
+				A63BBD095018F9B33E344246 /* WaveWorld.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEE04E0BDADE02822DDACDA2 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				965079D98BE20CD744675E3E /* StatsDetailView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		B095505708A0B55A0C1B3A99 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DE5FDF289BAE11B69D2120B2 /* SwiftData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B3FC2C8B56DDEFC3A8924DA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8E9FDF27E6A6C00047B1D /* HapticsService.swift */,
+				AF482104E025FE1529A3B8AE /* NotificationService.swift */,
+				4317CC2B50C71512491936F9 /* SoundService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DE5FDF289BAE11B69D2120B2 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				0C026FF467D4A3C3E8557FB6 /* AchievementRecord.swift */,
+				4C7B26589896A1D40AEC8885 /* LevelRecord.swift */,
+				62F173CA91404729A7459DFB /* SettingsRecord.swift */,
+				081C7A780B08787AFCCA9C31 /* StatsRecord.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		DF7D6A13732B22A0C0BB350B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D741B74E19BD65977A137092 /* Color+Extensions.swift */,
+				7787A73953F0BB604326F934 /* View+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F496B303BFAC1469E0AA819B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2D9F8C0702735E6832F62E44 /* Components */,
+				DF7D6A13732B22A0C0BB350B /* Extensions */,
+				25AB27FA2C0F02B0A1D25630 /* Theme */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C5DF9239F00CA4A11FFAC9B /* Tidal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D29B644E4CF24D6FDDFF00 /* Build configuration list for PBXNativeTarget "Tidal" */;
+			buildPhases = (
+				30866AECE7C94764BC0C80E6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tidal;
+			packageProductDependencies = (
+			);
+			productName = Tidal;
+			productReference = ED1D8BA0D498247195DFB77E /* Tidal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5655120151319D00197E7C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = EE18A4E0FAC17FCC74C9D819 /* Build configuration list for PBXProject "Tidal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 299845E2E8DD54D66BDC55E7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C5DF9239F00CA4A11FFAC9B /* Tidal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30866AECE7C94764BC0C80E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5197CC54E3FF196F3D4A8B /* Achievement.swift in Sources */,
+				F4515E527A3597CBE63D5F9E /* AchievementRecord.swift in Sources */,
+				695B3F4443A48B76A92A7DC3 /* AchievementsView.swift in Sources */,
+				4BDAA6C66BAAA433CE5F20CB /* AllThemes.swift in Sources */,
+				75879BA984568C91DA2B6ACD /* AppState.swift in Sources */,
+				6513F2C88CE182BA841D3F39 /* Color+Extensions.swift in Sources */,
+				42ADD8D180640ED6CE566CCE /* ConfettiView.swift in Sources */,
+				062D20114A7DEDA38E99C53B /* ContentView.swift in Sources */,
+				19BAFA0000ED83606C4CB08F /* FloatingOrbsView.swift in Sources */,
+				E272CF22686347A47C2F19A6 /* GlassButton.swift in Sources */,
+				36EED0047765DCE74CEBEE40 /* GlassCard.swift in Sources */,
+				29FA05F0F26F72F4D72AFDDD /* HapticsService.swift in Sources */,
+				2B05951E427E0070D6A8BABD /* HomeView.swift in Sources */,
+				E844A48C77C15A74B15134FB /* LevelData.swift in Sources */,
+				C272ABB2F4FFBF4B8CE1090D /* LevelRecord.swift in Sources */,
+				B44E5EC0803C444FA7CF1E3C /* NotificationService.swift in Sources */,
+				88B5665CE1D8987900685845 /* OnboardingView.swift in Sources */,
+				C78207C2E68E52CB92536B5C /* PlayView.swift in Sources */,
+				C20C24F00566B2B95D2FFE53 /* PlayViewModel.swift in Sources */,
+				721D7511B840D33682AFB59B /* Route.swift in Sources */,
+				3515A740EC39E30DD45056DB /* SeededRNG.swift in Sources */,
+				CF5DA8D0D116BBD797F9192E /* SettingsRecord.swift in Sources */,
+				9776B9D2F8FF4FC6154A7306 /* SettingsView.swift in Sources */,
+				63F903B984754981836F1457 /* SoundService.swift in Sources */,
+				71225091FB650A2944CA95D5 /* StatsDetailView.swift in Sources */,
+				86FC8E050D4F33CC8AD0CE66 /* StatsRecord.swift in Sources */,
+				1507AA1A586E93333C55E11D /* Theme.swift in Sources */,
+				FBB21B7B9A19670A1779948B /* ThemeColors.swift in Sources */,
+				E49EFC3DB57A9749C5B7E1E2 /* ThemeEnvironment.swift in Sources */,
+				2BE8852E511D1236233D7411 /* ThemePickerView.swift in Sources */,
+				37C727B593CF8A2F092AF017 /* TidalApp.swift in Sources */,
+				A35812E3556A3079B368820E /* TidalConfig.swift in Sources */,
+				6B1CF8986FF048DC295CA7CB /* TidalLevel.swift in Sources */,
+				FF34D16D19D0CCA6A29AAE55 /* View+Theme.swift in Sources */,
+				F915BA3EC7FF1B8CB53D1CA1 /* WaveCanvasView.swift in Sources */,
+				DE7ACC59F3445F82756762C0 /* WaveEngine.swift in Sources */,
+				3AE9A15DDFE66B2D970CF3A8 /* WaveSource.swift in Sources */,
+				15133A1DA74E3C4F25F06925 /* WaveWorld.swift in Sources */,
+				2F7944C46E5BA115FDB8C0F8 /* WorldsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		453B60D7462037976AFEB613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BAA2054BAB9835C6E81A8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.tidal;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61B8B8ABDDC40DA4E655D4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8EEF3228C11C52D56ADAC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.tidal;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D29B644E4CF24D6FDDFF00 /* Build configuration list for PBXNativeTarget "Tidal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8EEF3228C11C52D56ADAC83 /* Debug */,
+				5BAA2054BAB9835C6E81A8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE18A4E0FAC17FCC74C9D819 /* Build configuration list for PBXProject "Tidal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453B60D7462037976AFEB613 /* Debug */,
+				61B8B8ABDDC40DA4E655D4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5655120151319D00197E7C1C /* Project object */;
+}

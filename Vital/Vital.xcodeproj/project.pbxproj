@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042D729AECA39A408F77D452 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F34255D9069A79F9F0429 /* GameView.swift */; };
+		10C060DE9FCF989BE35CA326 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139D3553BDC8867FAF00996 /* Achievement.swift */; };
+		14800C08A9AFC4560B65172A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D328AA616815979797F1F2 /* OnboardingView.swift */; };
+		17496E58BBD5BA3B3788615F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26A29A0C737BF89569D268B /* AppState.swift */; };
+		1A0505A4588B0B55222DD3E6 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B10ED67BD993E0DEBB20FD /* GameType.swift */; };
+		1D98521CA5F5ABD7BA3E3946 /* GlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42E5BF10DA03143EFA29E5 /* GlassButton.swift */; };
+		1FCA455AC9916DAE18B7993E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07E409F098167AD7C1AF4C /* Color+Extensions.swift */; };
+		21650B63683E26C56D952CDF /* VitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F944990025E5997A5F0847 /* VitalApp.swift */; };
+		302AE63B2CCDF05A3F3A36BF /* SettingsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C695EB7581F84AF10B5F65 /* SettingsRecord.swift */; };
+		32AB0794448BCD0F541D656A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E9B4CAD6E74DAF31E80AB /* HomeView.swift */; };
+		35A5DF2CBEF68382969ED825 /* AllThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA760D6624CC16278095853 /* AllThemes.swift */; };
+		3A25C5B358AAC9BF949715B0 /* DailyPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D8924D82482D8BA2D6AE3 /* DailyPlanView.swift */; };
+		3D9FC44741E9AD722CFBDF00 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB808016B8C87D8019FBEA /* GameEngine.swift */; };
+		3DA7123F432D782CE991900A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89109300A78D1FF49682803F /* SettingsView.swift */; };
+		43189DC0CB93B85D61CCFBDB /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A496A19DD9578EC9DB16C /* AchievementsView.swift */; };
+		739334E4E670F1F93A6E7C07 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7F88133826E84649836B7 /* GameViewModel.swift */; };
+		7FEE1AD9A1F96190CDEFA23A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3B87B6583CB46B28F9F03 /* Theme.swift */; };
+		889C82361B7E513C34638A8A /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C48791907910E10B1860C7 /* ThemeColors.swift */; };
+		8E610B9170826196DBFE6951 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42F72E389B880D19EAFA01 /* SoundService.swift */; };
+		8EA142CE2548965C548B2F8D /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A74E0C075B5950A6C76339 /* ThemePickerView.swift */; };
+		97B4226705D18D045B5D3786 /* VitalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949FB9944C55C0E212876D7 /* VitalConfig.swift */; };
+		985B398E3870670378D3DD82 /* StatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381E592B441FD51F4C87FAC /* StatsDetailView.swift */; };
+		9EE3B3B10026C48C894C1E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC860DBCA8D5861DA867F953 /* Assets.xcassets */; };
+		A3F34011FA364B01D84A8700 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304AF90DC87F5DC4F02E6C0 /* Route.swift */; };
+		A3FF7BCCA6DF68775EEE5738 /* FloatingOrbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA117D808F70663FB111AE /* FloatingOrbsView.swift */; };
+		AED8AD3DE7605681E118A13A /* View+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6402656D32A4D506D56ABF38 /* View+Theme.swift */; };
+		B150508AD55BCFBE0D3F4576 /* AchievementRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A326BB425A77CA412782F /* AchievementRecord.swift */; };
+		BD2FEF96987351318FE91293 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D234EE05B9A8A450CEBA36 /* ContentView.swift */; };
+		E1C101CC9B82303685B525ED /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBA8239E0E48278DCB322F /* NotificationService.swift */; };
+		E62049D173E6510FCF3B8E73 /* ThemeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C9550F628DC09DD60DAF9C /* ThemeEnvironment.swift */; };
+		EC67E63B00B358619E153F41 /* StatsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2238A862952C0158384AC447 /* StatsRecord.swift */; };
+		F4C8B177D821E4C66860754D /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C253AC6F2F9E15A13E753715 /* HapticsService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D42E5BF10DA03143EFA29E5 /* GlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassButton.swift; sourceTree = "<group>"; };
+		0DB3B87B6583CB46B28F9F03 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0F1E9B4CAD6E74DAF31E80AB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1139D3553BDC8867FAF00996 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		15D234EE05B9A8A450CEBA36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B07E409F098167AD7C1AF4C /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		217A326BB425A77CA412782F /* AchievementRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRecord.swift; sourceTree = "<group>"; };
+		2238A862952C0158384AC447 /* StatsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRecord.swift; sourceTree = "<group>"; };
+		34CB808016B8C87D8019FBEA /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		36C48791907910E10B1860C7 /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		3C42F72E389B880D19EAFA01 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		49D328AA616815979797F1F2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		50C9550F628DC09DD60DAF9C /* ThemeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEnvironment.swift; sourceTree = "<group>"; };
+		533791F1F8F3F49849EED2E9 /* Vital.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Vital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6402656D32A4D506D56ABF38 /* View+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Theme.swift"; sourceTree = "<group>"; };
+		74A74E0C075B5950A6C76339 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		75F944990025E5997A5F0847 /* VitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalApp.swift; sourceTree = "<group>"; };
+		8304AF90DC87F5DC4F02E6C0 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		89109300A78D1FF49682803F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9FA760D6624CC16278095853 /* AllThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllThemes.swift; sourceTree = "<group>"; };
+		B26A29A0C737BF89569D268B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B58D8924D82482D8BA2D6AE3 /* DailyPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanView.swift; sourceTree = "<group>"; };
+		B8C695EB7581F84AF10B5F65 /* SettingsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRecord.swift; sourceTree = "<group>"; };
+		B9D7F88133826E84649836B7 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		C0DA117D808F70663FB111AE /* FloatingOrbsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingOrbsView.swift; sourceTree = "<group>"; };
+		C253AC6F2F9E15A13E753715 /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		C27A496A19DD9578EC9DB16C /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		D381E592B441FD51F4C87FAC /* StatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailView.swift; sourceTree = "<group>"; };
+		D6B10ED67BD993E0DEBB20FD /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		EACBA8239E0E48278DCB322F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		EC860DBCA8D5861DA867F953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45F34255D9069A79F9F0429 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F949FB9944C55C0E212876D7 /* VitalConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		070CAC5D3FD0D3C39F076B34 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F45F34255D9069A79F9F0429 /* GameView.swift */,
+				B9D7F88133826E84649836B7 /* GameViewModel.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		169E74A895E20857A45B2F9A /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				C27A496A19DD9578EC9DB16C /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		2BA6869491B7AA95723AAEFC /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9FA760D6624CC16278095853 /* AllThemes.swift */,
+				0DB3B87B6583CB46B28F9F03 /* Theme.swift */,
+				36C48791907910E10B1860C7 /* ThemeColors.swift */,
+				50C9550F628DC09DD60DAF9C /* ThemeEnvironment.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		2C8C4AC0D07BB00B4118437D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B1E01985B0EC644F4F598584 /* SwiftData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2D3D78A9F7CF23297BA447AC /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				D381E592B441FD51F4C87FAC /* StatsDetailView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		61B1718E136FFC9A0C467A3D /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				34CB808016B8C87D8019FBEA /* GameEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		67ED52803FE703001302E36A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C253AC6F2F9E15A13E753715 /* HapticsService.swift */,
+				EACBA8239E0E48278DCB322F /* NotificationService.swift */,
+				3C42F72E389B880D19EAFA01 /* SoundService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		69DA0D0AB5D4A39B1C289E6A /* Vital */ = {
+			isa = PBXGroup;
+			children = (
+				EC860DBCA8D5861DA867F953 /* Assets.xcassets */,
+				15D234EE05B9A8A450CEBA36 /* ContentView.swift */,
+				75F944990025E5997A5F0847 /* VitalApp.swift */,
+				F32B1051C268D49A4713B053 /* App */,
+				AFB8D9A674E31DC97D7FA305 /* Core */,
+				2C8C4AC0D07BB00B4118437D /* Data */,
+				A8C89F438007B7F82A15C77A /* Features */,
+				B84AD45F767D78C890A3AD50 /* Shared */,
+			);
+			path = Vital;
+			sourceTree = "<group>";
+		};
+		6C07C138B6F4BEAEA9224FAD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				89109300A78D1FF49682803F /* SettingsView.swift */,
+				74A74E0C075B5950A6C76339 /* ThemePickerView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6C5F16337B7BD42966EA0FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533791F1F8F3F49849EED2E9 /* Vital.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC921F7E2C7AAF47363D88A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				49D328AA616815979797F1F2 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A0664CA2EE5DE0BA20BEAD28 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0DA117D808F70663FB111AE /* FloatingOrbsView.swift */,
+				0D42E5BF10DA03143EFA29E5 /* GlassButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A8C89F438007B7F82A15C77A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				169E74A895E20857A45B2F9A /* Achievements */,
+				B11D00FCD6F1D5D2A1AABAF8 /* DailyPlan */,
+				070CAC5D3FD0D3C39F076B34 /* Game */,
+				B14E685525B34BAE46EDDF37 /* Home */,
+				7CC921F7E2C7AAF47363D88A /* Onboarding */,
+				6C07C138B6F4BEAEA9224FAD /* Settings */,
+				2D3D78A9F7CF23297BA447AC /* Stats */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AFB8D9A674E31DC97D7FA305 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				61B1718E136FFC9A0C467A3D /* Engine */,
+				C2DAD57726F899B763B3CE1F /* Models */,
+				67ED52803FE703001302E36A /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B11D00FCD6F1D5D2A1AABAF8 /* DailyPlan */ = {
+			isa = PBXGroup;
+			children = (
+				B58D8924D82482D8BA2D6AE3 /* DailyPlanView.swift */,
+			);
+			path = DailyPlan;
+			sourceTree = "<group>";
+		};
+		B14E685525B34BAE46EDDF37 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0F1E9B4CAD6E74DAF31E80AB /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1E01985B0EC644F4F598584 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				217A326BB425A77CA412782F /* AchievementRecord.swift */,
+				B8C695EB7581F84AF10B5F65 /* SettingsRecord.swift */,
+				2238A862952C0158384AC447 /* StatsRecord.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		B84AD45F767D78C890A3AD50 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A0664CA2EE5DE0BA20BEAD28 /* Components */,
+				D4404407D0EC4C7F8A3BB49E /* Extensions */,
+				2BA6869491B7AA95723AAEFC /* Theme */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C2DAD57726F899B763B3CE1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1139D3553BDC8867FAF00996 /* Achievement.swift */,
+				D6B10ED67BD993E0DEBB20FD /* GameType.swift */,
+				F949FB9944C55C0E212876D7 /* VitalConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB88CC1D8F8ABA595084C46C = {
+			isa = PBXGroup;
+			children = (
+				69DA0D0AB5D4A39B1C289E6A /* Vital */,
+				6C5F16337B7BD42966EA0FF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4404407D0EC4C7F8A3BB49E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B07E409F098167AD7C1AF4C /* Color+Extensions.swift */,
+				6402656D32A4D506D56ABF38 /* View+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F32B1051C268D49A4713B053 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B26A29A0C737BF89569D268B /* AppState.swift */,
+				8304AF90DC87F5DC4F02E6C0 /* Route.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1820B6FC800E8BDC6ED21986 /* Vital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A002BC5BA9E34327A7AE2CA /* Build configuration list for PBXNativeTarget "Vital" */;
+			buildPhases = (
+				3C30289B3BD64E1F6A5AC12F /* Sources */,
+				007A246AD3C9B1FFE1F2C97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vital;
+			packageProductDependencies = (
+			);
+			productName = Vital;
+			productReference = 533791F1F8F3F49849EED2E9 /* Vital.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E093F5583ED5A7AACA928D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1820B6FC800E8BDC6ED21986 = {
+						DevelopmentTeam = BTYNKLQT43;
+					};
+				};
+			};
+			buildConfigurationList = A1F3E2A40935B537D89BC59B /* Build configuration list for PBXProject "Vital" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CB88CC1D8F8ABA595084C46C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1820B6FC800E8BDC6ED21986 /* Vital */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		007A246AD3C9B1FFE1F2C97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE3B3B10026C48C894C1E2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C30289B3BD64E1F6A5AC12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C060DE9FCF989BE35CA326 /* Achievement.swift in Sources */,
+				B150508AD55BCFBE0D3F4576 /* AchievementRecord.swift in Sources */,
+				43189DC0CB93B85D61CCFBDB /* AchievementsView.swift in Sources */,
+				35A5DF2CBEF68382969ED825 /* AllThemes.swift in Sources */,
+				17496E58BBD5BA3B3788615F /* AppState.swift in Sources */,
+				1FCA455AC9916DAE18B7993E /* Color+Extensions.swift in Sources */,
+				BD2FEF96987351318FE91293 /* ContentView.swift in Sources */,
+				3A25C5B358AAC9BF949715B0 /* DailyPlanView.swift in Sources */,
+				A3FF7BCCA6DF68775EEE5738 /* FloatingOrbsView.swift in Sources */,
+				3D9FC44741E9AD722CFBDF00 /* GameEngine.swift in Sources */,
+				1A0505A4588B0B55222DD3E6 /* GameType.swift in Sources */,
+				042D729AECA39A408F77D452 /* GameView.swift in Sources */,
+				739334E4E670F1F93A6E7C07 /* GameViewModel.swift in Sources */,
+				1D98521CA5F5ABD7BA3E3946 /* GlassButton.swift in Sources */,
+				F4C8B177D821E4C66860754D /* HapticsService.swift in Sources */,
+				32AB0794448BCD0F541D656A /* HomeView.swift in Sources */,
+				E1C101CC9B82303685B525ED /* NotificationService.swift in Sources */,
+				14800C08A9AFC4560B65172A /* OnboardingView.swift in Sources */,
+				A3F34011FA364B01D84A8700 /* Route.swift in Sources */,
+				302AE63B2CCDF05A3F3A36BF /* SettingsRecord.swift in Sources */,
+				3DA7123F432D782CE991900A /* SettingsView.swift in Sources */,
+				8E610B9170826196DBFE6951 /* SoundService.swift in Sources */,
+				985B398E3870670378D3DD82 /* StatsDetailView.swift in Sources */,
+				EC67E63B00B358619E153F41 /* StatsRecord.swift in Sources */,
+				7FEE1AD9A1F96190CDEFA23A /* Theme.swift in Sources */,
+				889C82361B7E513C34638A8A /* ThemeColors.swift in Sources */,
+				E62049D173E6510FCF3B8E73 /* ThemeEnvironment.swift in Sources */,
+				8EA142CE2548965C548B2F8D /* ThemePickerView.swift in Sources */,
+				AED8AD3DE7605681E118A13A /* View+Theme.swift in Sources */,
+				21650B63683E26C56D952CDF /* VitalApp.swift in Sources */,
+				97B4226705D18D045B5D3786 /* VitalConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5054818954517B4FE5CA5B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BTYNKLQT43;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		886B1CC563E77E95FD6F06CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BTYNKLQT43;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F16163EC128079E77E87F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Vital uses the camera for eye tracking exercises.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Vital uses motion sensors for posture exercises.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.vital;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC774E77773F549938D62AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Vital uses the camera for eye tracking exercises.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Vital uses motion sensors for posture exercises.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.vital;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A002BC5BA9E34327A7AE2CA /* Build configuration list for PBXNativeTarget "Vital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F16163EC128079E77E87F92 /* Debug */,
+				BEC774E77773F549938D62AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1F3E2A40935B537D89BC59B /* Build configuration list for PBXProject "Vital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886B1CC563E77E95FD6F06CA /* Debug */,
+				5054818954517B4FE5CA5B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E093F5583ED5A7AACA928D4 /* Project object */;
+}

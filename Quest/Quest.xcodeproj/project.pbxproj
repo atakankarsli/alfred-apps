@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F469FDD4BAE126B12D55DC /* MissionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F79EE1F9E6651DF10153 /* MissionType.swift */; };
+		0DB296089217326CEE3C7C66 /* SettingsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFA9A4092B46920B9A52805 /* SettingsRecord.swift */; };
+		14ECE0B9F6A1DB8960DEA0DA /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0EF10D7BA4996A667ED6B6 /* AchievementsView.swift */; };
+		1CAA8568A3545FB1621C74CA /* ThemeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9415138FDF69DDF33F0A57BB /* ThemeEnvironment.swift */; };
+		2CB1F4ACF301B76E0998CEBA /* StatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B63B5CB87E6D3282530207 /* StatsDetailView.swift */; };
+		30041488AC58B063D624A008 /* View+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3B6877552E26D45F63DBC /* View+Theme.swift */; };
+		3251CAF533575EF5EEEAAD1E /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521B8AE9A88E64A60E4ED67 /* JournalView.swift */; };
+		340E46CB154429209E09E4DE /* StatsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ABC774EDF260ABE1DDA41C /* StatsRecord.swift */; };
+		3E4CF12E3E4741B075130B3F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FE3DDB45A50F9C4BD35C2 /* SettingsView.swift */; };
+		4FFA6701AE085C2A4BFA686E /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC77E4254536EFFECAA9976 /* MissionView.swift */; };
+		51C742B33C82F19177AC9879 /* MissionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350115A2C0B23A751CBBF6ED /* MissionGenerator.swift */; };
+		55724488BF4F0DCA09C232FF /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4A7FC71839FD35CA84DF2 /* HapticsService.swift */; };
+		5CDCBF6E70267F7F52183578 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B88B33A6AFB79B87819D90A /* ThemePickerView.swift */; };
+		8279F3AD1A2EFDA1203F87EB /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD911C8852FBAFC0357B34 /* Achievement.swift */; };
+		846543E13CDAE757E45EE395 /* QuestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FD8B63C0E985CC5C1810C /* QuestConfig.swift */; };
+		9C571EECF5807A184CC820E5 /* GlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D7FFFB34E47DB580154CA /* GlassButton.swift */; };
+		9CDD64842CC731A92CB9EF1D /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D18E50DC72AEFB669C9E341 /* Region.swift */; };
+		9F2ECDF354FBD62E61EB08A4 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7024288A02EB5061BDAA801 /* SoundService.swift */; };
+		A6C6ECB7CB549F46B858E718 /* QuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FB33D5312BEBDFEED2FF8C /* QuestApp.swift */; };
+		A86442639EF199A4ED7C09D2 /* MissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9A674BF070AD397E3A197 /* MissionViewModel.swift */; };
+		AC2F0C3E23EE7FE0A53548B4 /* RegionMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF90CB0DBF4FE0822F18801 /* RegionMapView.swift */; };
+		B159A27C007AAE7C0866E627 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D0B50B672E32FDD0D15D2F /* Color+Extensions.swift */; };
+		B270F8B1A6144FC0C9DC9D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E51DB81B16BFCA1D113C9E /* Assets.xcassets */; };
+		BD111B0805EE6E54E226E62C /* AllThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B2A2F773907DA6483244 /* AllThemes.swift */; };
+		BE76A15FD4548B8D29D07A32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8331235739CAF8936EEE2C25 /* ContentView.swift */; };
+		C4CAC8BDF609D26324DDBDDD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28775E139A95768A8FF08FBB /* OnboardingView.swift */; };
+		C50675F72E503DFA1E750E61 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0758D73B2643A1D48B216 /* Route.swift */; };
+		D3FB2EAF30E48B17013A7F5C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC6C9C3A13D1DC8A33E3416 /* HomeView.swift */; };
+		E0BF697D8626DBC3F2C38531 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B7D8A02FB0FAACD85A4A /* ThemeColors.swift */; };
+		E36E873032D44F6A883FF785 /* FloatingOrbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34F67F2E4BC40D1470A131 /* FloatingOrbsView.swift */; };
+		ED63D50612764AA6C2EFCB7A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0666C0C0F6334708850A099 /* NotificationService.swift */; };
+		F2B01222AC48D4656AFFDCAC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6DE81BD8BDF23ED9F3699 /* Theme.swift */; };
+		F94E44C22568A82D6C43DCFD /* AchievementRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A71E755ECFF1D5889062F /* AchievementRecord.swift */; };
+		FED9FA9057A8D70C2B3774BA /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F7D8D953902B0334ADA43 /* AppState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B88B33A6AFB79B87819D90A /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		0C34F67F2E4BC40D1470A131 /* FloatingOrbsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingOrbsView.swift; sourceTree = "<group>"; };
+		0D18E50DC72AEFB669C9E341 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		1BC77E4254536EFFECAA9976 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		28775E139A95768A8FF08FBB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2CAD911C8852FBAFC0357B34 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		350115A2C0B23A751CBBF6ED /* MissionGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionGenerator.swift; sourceTree = "<group>"; };
+		41E51DB81B16BFCA1D113C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47FB33D5312BEBDFEED2FF8C /* QuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestApp.swift; sourceTree = "<group>"; };
+		5521B8AE9A88E64A60E4ED67 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		642FE3DDB45A50F9C4BD35C2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6453F79EE1F9E6651DF10153 /* MissionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionType.swift; sourceTree = "<group>"; };
+		663F7D8D953902B0334ADA43 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		67B63B5CB87E6D3282530207 /* StatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailView.swift; sourceTree = "<group>"; };
+		6C0EF10D7BA4996A667ED6B6 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		8331235739CAF8936EEE2C25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92ABC774EDF260ABE1DDA41C /* StatsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRecord.swift; sourceTree = "<group>"; };
+		9415138FDF69DDF33F0A57BB /* ThemeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEnvironment.swift; sourceTree = "<group>"; };
+		9AB9A674BF070AD397E3A197 /* MissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewModel.swift; sourceTree = "<group>"; };
+		9C0A71E755ECFF1D5889062F /* AchievementRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRecord.swift; sourceTree = "<group>"; };
+		9CF90CB0DBF4FE0822F18801 /* RegionMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionMapView.swift; sourceTree = "<group>"; };
+		9EFA9A4092B46920B9A52805 /* SettingsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRecord.swift; sourceTree = "<group>"; };
+		B0666C0C0F6334708850A099 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		BF2FD8B63C0E985CC5C1810C /* QuestConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestConfig.swift; sourceTree = "<group>"; };
+		C49D7FFFB34E47DB580154CA /* GlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassButton.swift; sourceTree = "<group>"; };
+		DCC6C9C3A13D1DC8A33E3416 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DE20B2A2F773907DA6483244 /* AllThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllThemes.swift; sourceTree = "<group>"; };
+		E7024288A02EB5061BDAA801 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		E9D3B6877552E26D45F63DBC /* View+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Theme.swift"; sourceTree = "<group>"; };
+		EDDEA31DD1D4965EBC119BF3 /* Quest.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Quest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D0B50B672E32FDD0D15D2F /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		F1D4A7FC71839FD35CA84DF2 /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		F4A0758D73B2643A1D48B216 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		F4D3B7D8A02FB0FAACD85A4A /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		FAF6DE81BD8BDF23ED9F3699 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1338B1C90D80B4287DB163A2 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				5521B8AE9A88E64A60E4ED67 /* JournalView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		292E6D53DECB3915F7BC1E67 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				350115A2C0B23A751CBBF6ED /* MissionGenerator.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		3075A4AC83167B25D93A2143 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				642FE3DDB45A50F9C4BD35C2 /* SettingsView.swift */,
+				0B88B33A6AFB79B87819D90A /* ThemePickerView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		38146C7DCADAD0640CA6B6BC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7A763A08EC0167CAF95D489C /* Achievements */,
+				F6D867FCAB7C3B80E0B77BDD /* Home */,
+				1338B1C90D80B4287DB163A2 /* Journal */,
+				91A1B9BC5F2F50530C42DEB1 /* Map */,
+				91BF4FDEDD96E151681988B9 /* Mission */,
+				6FF0E098CB6B594327E0FDA4 /* Onboarding */,
+				3075A4AC83167B25D93A2143 /* Settings */,
+				806CFFA7EC947449C5062C32 /* Stats */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3842F650A28C02D4E7E589C9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0C34F67F2E4BC40D1470A131 /* FloatingOrbsView.swift */,
+				C49D7FFFB34E47DB580154CA /* GlassButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3C7B5060F82942D0FB6A76E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0D0B50B672E32FDD0D15D2F /* Color+Extensions.swift */,
+				E9D3B6877552E26D45F63DBC /* View+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		454AC7369073E647AD285DFC = {
+			isa = PBXGroup;
+			children = (
+				A8AD25BF5A4B9588A084DE08 /* Quest */,
+				5ED7E1229AC9566A012013F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA500341BE0A1B7E03C3E00 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				292E6D53DECB3915F7BC1E67 /* Engine */,
+				CF4B08068B88ADB80EBB6DED /* Models */,
+				76ABAC83250CFA87B6F3D212 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5ED7E1229AC9566A012013F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEA31DD1D4965EBC119BF3 /* Quest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B49C52CA6175ACC8653C36B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				DE20B2A2F773907DA6483244 /* AllThemes.swift */,
+				FAF6DE81BD8BDF23ED9F3699 /* Theme.swift */,
+				F4D3B7D8A02FB0FAACD85A4A /* ThemeColors.swift */,
+				9415138FDF69DDF33F0A57BB /* ThemeEnvironment.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		6FF0E098CB6B594327E0FDA4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				28775E139A95768A8FF08FBB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		76ABAC83250CFA87B6F3D212 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4A7FC71839FD35CA84DF2 /* HapticsService.swift */,
+				B0666C0C0F6334708850A099 /* NotificationService.swift */,
+				E7024288A02EB5061BDAA801 /* SoundService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7A763A08EC0167CAF95D489C /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				6C0EF10D7BA4996A667ED6B6 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		806CFFA7EC947449C5062C32 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				67B63B5CB87E6D3282530207 /* StatsDetailView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		81F3D7B014A639469026A17A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BD47318CD65A61497B2F8D12 /* SwiftData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9152E84E9CFBFD5BB93551EC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3842F650A28C02D4E7E589C9 /* Components */,
+				3C7B5060F82942D0FB6A76E1 /* Extensions */,
+				6B49C52CA6175ACC8653C36B /* Theme */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		91A1B9BC5F2F50530C42DEB1 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9CF90CB0DBF4FE0822F18801 /* RegionMapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		91BF4FDEDD96E151681988B9 /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+				1BC77E4254536EFFECAA9976 /* MissionView.swift */,
+				9AB9A674BF070AD397E3A197 /* MissionViewModel.swift */,
+			);
+			path = Mission;
+			sourceTree = "<group>";
+		};
+		A8AD25BF5A4B9588A084DE08 /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				41E51DB81B16BFCA1D113C9E /* Assets.xcassets */,
+				8331235739CAF8936EEE2C25 /* ContentView.swift */,
+				47FB33D5312BEBDFEED2FF8C /* QuestApp.swift */,
+				F644ECC55FB3E7CF8BF0AF19 /* App */,
+				5CA500341BE0A1B7E03C3E00 /* Core */,
+				81F3D7B014A639469026A17A /* Data */,
+				38146C7DCADAD0640CA6B6BC /* Features */,
+				9152E84E9CFBFD5BB93551EC /* Shared */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
+		BD47318CD65A61497B2F8D12 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				9C0A71E755ECFF1D5889062F /* AchievementRecord.swift */,
+				9EFA9A4092B46920B9A52805 /* SettingsRecord.swift */,
+				92ABC774EDF260ABE1DDA41C /* StatsRecord.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		CF4B08068B88ADB80EBB6DED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CAD911C8852FBAFC0357B34 /* Achievement.swift */,
+				6453F79EE1F9E6651DF10153 /* MissionType.swift */,
+				BF2FD8B63C0E985CC5C1810C /* QuestConfig.swift */,
+				0D18E50DC72AEFB669C9E341 /* Region.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F644ECC55FB3E7CF8BF0AF19 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				663F7D8D953902B0334ADA43 /* AppState.swift */,
+				F4A0758D73B2643A1D48B216 /* Route.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F6D867FCAB7C3B80E0B77BDD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DCC6C9C3A13D1DC8A33E3416 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520F078F1008CDC7EA95B593 /* Quest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB2490150F1BCF91BA3A673 /* Build configuration list for PBXNativeTarget "Quest" */;
+			buildPhases = (
+				B0E8AE52F622741A7FE9A97F /* Sources */,
+				9DD9F953ED41FFD8F158D033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quest;
+			packageProductDependencies = (
+			);
+			productName = Quest;
+			productReference = EDDEA31DD1D4965EBC119BF3 /* Quest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05B4F87C3F32D855715AA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					520F078F1008CDC7EA95B593 = {
+						DevelopmentTeam = BTYNKLQT43;
+					};
+				};
+			};
+			buildConfigurationList = B7A2AD8CAD0BF01C039E5429 /* Build configuration list for PBXProject "Quest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 454AC7369073E647AD285DFC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520F078F1008CDC7EA95B593 /* Quest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD9F953ED41FFD8F158D033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B270F8B1A6144FC0C9DC9D03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E8AE52F622741A7FE9A97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8279F3AD1A2EFDA1203F87EB /* Achievement.swift in Sources */,
+				F94E44C22568A82D6C43DCFD /* AchievementRecord.swift in Sources */,
+				14ECE0B9F6A1DB8960DEA0DA /* AchievementsView.swift in Sources */,
+				BD111B0805EE6E54E226E62C /* AllThemes.swift in Sources */,
+				FED9FA9057A8D70C2B3774BA /* AppState.swift in Sources */,
+				B159A27C007AAE7C0866E627 /* Color+Extensions.swift in Sources */,
+				BE76A15FD4548B8D29D07A32 /* ContentView.swift in Sources */,
+				E36E873032D44F6A883FF785 /* FloatingOrbsView.swift in Sources */,
+				9C571EECF5807A184CC820E5 /* GlassButton.swift in Sources */,
+				55724488BF4F0DCA09C232FF /* HapticsService.swift in Sources */,
+				D3FB2EAF30E48B17013A7F5C /* HomeView.swift in Sources */,
+				3251CAF533575EF5EEEAAD1E /* JournalView.swift in Sources */,
+				51C742B33C82F19177AC9879 /* MissionGenerator.swift in Sources */,
+				06F469FDD4BAE126B12D55DC /* MissionType.swift in Sources */,
+				4FFA6701AE085C2A4BFA686E /* MissionView.swift in Sources */,
+				A86442639EF199A4ED7C09D2 /* MissionViewModel.swift in Sources */,
+				ED63D50612764AA6C2EFCB7A /* NotificationService.swift in Sources */,
+				C4CAC8BDF609D26324DDBDDD /* OnboardingView.swift in Sources */,
+				A6C6ECB7CB549F46B858E718 /* QuestApp.swift in Sources */,
+				846543E13CDAE757E45EE395 /* QuestConfig.swift in Sources */,
+				9CDD64842CC731A92CB9EF1D /* Region.swift in Sources */,
+				AC2F0C3E23EE7FE0A53548B4 /* RegionMapView.swift in Sources */,
+				C50675F72E503DFA1E750E61 /* Route.swift in Sources */,
+				0DB296089217326CEE3C7C66 /* SettingsRecord.swift in Sources */,
+				3E4CF12E3E4741B075130B3F /* SettingsView.swift in Sources */,
+				9F2ECDF354FBD62E61EB08A4 /* SoundService.swift in Sources */,
+				2CB1F4ACF301B76E0998CEBA /* StatsDetailView.swift in Sources */,
+				340E46CB154429209E09E4DE /* StatsRecord.swift in Sources */,
+				F2B01222AC48D4656AFFDCAC /* Theme.swift in Sources */,
+				E0BF697D8626DBC3F2C38531 /* ThemeColors.swift in Sources */,
+				1CAA8568A3545FB1621C74CA /* ThemeEnvironment.swift in Sources */,
+				5CDCBF6E70267F7F52183578 /* ThemePickerView.swift in Sources */,
+				30041488AC58B063D624A008 /* View+Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		005E76ECB3C770D14C4A7DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CBC791AF982F783081D2844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = BTYNKLQT43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Quest needs camera access for photo missions.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Quest needs your location to discover nearby missions and track exploration progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.quest;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55F41164DFE36573FF30B2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = BTYNKLQT43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Quest needs camera access for photo missions.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Quest needs your location to discover nearby missions and track exploration progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.quest;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A737A400CC7BB641953945B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB2490150F1BCF91BA3A673 /* Build configuration list for PBXNativeTarget "Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F41164DFE36573FF30B2D8 /* Debug */,
+				2CBC791AF982F783081D2844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7A2AD8CAD0BF01C039E5429 /* Build configuration list for PBXProject "Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A737A400CC7BB641953945B6 /* Debug */,
+				005E76ECB3C770D14C4A7DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C05B4F87C3F32D855715AA5B /* Project object */;
+}

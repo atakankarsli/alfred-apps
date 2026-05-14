@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE1087EF9A5AE674B1EDDB4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1299B78F5DC85543006AA9 /* AppState.swift */; };
+		1917CE2499A94286A261B032 /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52388438A769C1F264848E /* HapticsService.swift */; };
+		1A2B1F109522101AEAE9AB67 /* StarCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E76A025455F00E6EBC3409 /* StarCanvasView.swift */; };
+		214666E3F43BD36C0EF561B6 /* FloatingOrbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA94FBDCB95D97D4F82179 /* FloatingOrbsView.swift */; };
+		25F7828F0D957325B2E6C717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E88EFC1A037F7CCD7B10C58 /* ContentView.swift */; };
+		29A3E0885A7DBE127FE43258 /* StarFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA4AA3E8201D415A656C200 /* StarFieldView.swift */; };
+		2B2D324258CE6E60A27FABA5 /* ZenithApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8024AA8B7FBC8CB96DCA7 /* ZenithApp.swift */; };
+		3C8CAF73EAAD19E416C8925D /* ZenithConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE3056CA44DA44D3B9664 /* ZenithConfig.swift */; };
+		40B5798C7772C00E2005DC90 /* LevelRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B5198E068A8D37F4CB3B8E /* LevelRecord.swift */; };
+		4C12141C4D5C2305437C13D3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE511968C403CE2F4EBABB0 /* OnboardingView.swift */; };
+		4DCDC49F7608A5AB029DFDA2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7803E57BF5710AE56D817AE /* Theme.swift */; };
+		58B8F7D6CD9DEE9F6E9AA642 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392F737FD1205799388D3DC /* Color+Extensions.swift */; };
+		5C613811E8A854908F107F08 /* ZenithEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F88D95442C9A790ABC137 /* ZenithEngine.swift */; };
+		5C75B10D89E5E779167CDB43 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832B1AB7F22C3486EDAF628 /* HomeView.swift */; };
+		5F40E4E3333CE47D33223395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C03EEA0E3AE79EAE6F404B /* Assets.xcassets */; };
+		6C6A615419D8B6A7C92346FF /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F323CFFB2E9E0E8F20673A /* Route.swift */; };
+		6DBF550EC101AC910157926F /* StatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880634614859474283CDD5B /* StatsDetailView.swift */; };
+		6FBA142F078B1D55AE592905 /* StatsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154AE743A1E638067F0B66D /* StatsRecord.swift */; };
+		8252FA3696A23C3149448D0E /* Constellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7F1E05884A287B4F503AA /* Constellation.swift */; };
+		88128A096BBF56E665F3BDBA /* ThemeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E022CBE56E9473FF5F2E7ECE /* ThemeEnvironment.swift */; };
+		8899CA3559371D03FF0441B1 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D4000583A7518AA960BE8 /* ConfettiView.swift */; };
+		914A0013F2A7B8A2B93E44FD /* AllThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691A2EE353A1B4B66811FE78 /* AllThemes.swift */; };
+		9209C774AE75FEE88B27ABD8 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055F26AB20C377A25BF82DE /* PlayView.swift */; };
+		9242B9B68D388715C1ADF34B /* AchievementRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D7C1430EA0FD2D7A7EE4E /* AchievementRecord.swift */; };
+		9EAC89BF8FA15C159E973620 /* SkyRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1562FEADDFCAF9F19AD5351E /* SkyRealm.swift */; };
+		A381B9DCB69F4F7B6C60F2AD /* View+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D2FE365963A2D5F804458 /* View+Theme.swift */; };
+		AB04D42B021FC92C51A06CB7 /* GlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE811B11C8EEC33B3C62CC5 /* GlassButton.swift */; };
+		B2E8D0C8ED770ED0FA7405C6 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC1F4C34D11D513AB57EB7 /* PlayViewModel.swift */; };
+		B40CD01353FB1EB8ADF4C3E9 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60D9716975683904D6B2577 /* GlassCard.swift */; };
+		BDBE8C7B8EA7EEA2344098AA /* SettingsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A4DC5EE52AA8B3285911F /* SettingsRecord.swift */; };
+		D411EFA87662FEDF1CEF27F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDABBD0646A5EB44E0831FB /* SettingsView.swift */; };
+		D4B85D27E7DF4CE45BE918DC /* ConstellationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE00B18CEC2BAD645D057477 /* ConstellationData.swift */; };
+		D5DDD7E995F162AC49F6D159 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53816C7FD18DA91F49E41E9 /* ThemePickerView.swift */; };
+		DAEB66FD6D40E279FD5A406E /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F5A28EA1D27CB16405D33 /* ThemeColors.swift */; };
+		E98ABECAC41D860D65F6AA62 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA46E2BAB91F009AD721713 /* AchievementsView.swift */; };
+		EB7CAA7944207ED5BE5C6432 /* WorldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474BA9A3A2459C6F8F6571C /* WorldsView.swift */; };
+		EB9799BCCF55810FAB4B557E /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A1A998887D642C0AE86DC /* QuizView.swift */; };
+		F87BE90B21ACDAC5D2505A14 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB55DDEFB36903C2CCBE0B /* Achievement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F323CFFB2E9E0E8F20673A /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		0BA4AA3E8201D415A656C200 /* StarFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarFieldView.swift; sourceTree = "<group>"; };
+		1055F26AB20C377A25BF82DE /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		1562FEADDFCAF9F19AD5351E /* SkyRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyRealm.swift; sourceTree = "<group>"; };
+		1880634614859474283CDD5B /* StatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailView.swift; sourceTree = "<group>"; };
+		1DF7F1E05884A287B4F503AA /* Constellation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constellation.swift; sourceTree = "<group>"; };
+		27BB55DDEFB36903C2CCBE0B /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		296D7C1430EA0FD2D7A7EE4E /* AchievementRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRecord.swift; sourceTree = "<group>"; };
+		2EE511968C403CE2F4EBABB0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3EA46E2BAB91F009AD721713 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		442D81CC67F7BEC92EA98E90 /* Zenith.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Zenith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C03EEA0E3AE79EAE6F404B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDEE3056CA44DA44D3B9664 /* ZenithConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenithConfig.swift; sourceTree = "<group>"; };
+		5392F737FD1205799388D3DC /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		57BC1F4C34D11D513AB57EB7 /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
+		58B5198E068A8D37F4CB3B8E /* LevelRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelRecord.swift; sourceTree = "<group>"; };
+		691A2EE353A1B4B66811FE78 /* AllThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllThemes.swift; sourceTree = "<group>"; };
+		7E88EFC1A037F7CCD7B10C58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FE811B11C8EEC33B3C62CC5 /* GlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassButton.swift; sourceTree = "<group>"; };
+		8E1299B78F5DC85543006AA9 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9832B1AB7F22C3486EDAF628 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A154AE743A1E638067F0B66D /* StatsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRecord.swift; sourceTree = "<group>"; };
+		A22A1A998887D642C0AE86DC /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		A77F88D95442C9A790ABC137 /* ZenithEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenithEngine.swift; sourceTree = "<group>"; };
+		AB9D4000583A7518AA960BE8 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		ADC8024AA8B7FBC8CB96DCA7 /* ZenithApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenithApp.swift; sourceTree = "<group>"; };
+		B01D2FE365963A2D5F804458 /* View+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Theme.swift"; sourceTree = "<group>"; };
+		C474BA9A3A2459C6F8F6571C /* WorldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldsView.swift; sourceTree = "<group>"; };
+		C7803E57BF5710AE56D817AE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CD0A4DC5EE52AA8B3285911F /* SettingsRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRecord.swift; sourceTree = "<group>"; };
+		CE00B18CEC2BAD645D057477 /* ConstellationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationData.swift; sourceTree = "<group>"; };
+		CF52388438A769C1F264848E /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		D1E76A025455F00E6EBC3409 /* StarCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCanvasView.swift; sourceTree = "<group>"; };
+		D53816C7FD18DA91F49E41E9 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		D5FA94FBDCB95D97D4F82179 /* FloatingOrbsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingOrbsView.swift; sourceTree = "<group>"; };
+		D60D9716975683904D6B2577 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		E022CBE56E9473FF5F2E7ECE /* ThemeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEnvironment.swift; sourceTree = "<group>"; };
+		E62F5A28EA1D27CB16405D33 /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		FDDABBD0646A5EB44E0831FB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		058C24BC2085521639B861C2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CF52388438A769C1F264848E /* HapticsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0CA9B83ACBDA740FD20886FD = {
+			isa = PBXGroup;
+			children = (
+				7DF4FC43E6D929A5A5491738 /* Zenith */,
+				B09EF9F6E1B8554DB3619CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4222E20D5D98296DFB0A99D0 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				1055F26AB20C377A25BF82DE /* PlayView.swift */,
+				57BC1F4C34D11D513AB57EB7 /* PlayViewModel.swift */,
+				D1E76A025455F00E6EBC3409 /* StarCanvasView.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		484484050BF2D75F0302CD1B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2EE511968C403CE2F4EBABB0 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		55E743DE1A580A9C99201061 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				296D7C1430EA0FD2D7A7EE4E /* AchievementRecord.swift */,
+				58B5198E068A8D37F4CB3B8E /* LevelRecord.swift */,
+				CD0A4DC5EE52AA8B3285911F /* SettingsRecord.swift */,
+				A154AE743A1E638067F0B66D /* StatsRecord.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		5C8674823CC0FE28074F6243 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				A22A1A998887D642C0AE86DC /* QuizView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		671FB05DB3ECDE50C7921CE3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AB9D4000583A7518AA960BE8 /* ConfettiView.swift */,
+				D5FA94FBDCB95D97D4F82179 /* FloatingOrbsView.swift */,
+				7FE811B11C8EEC33B3C62CC5 /* GlassButton.swift */,
+				D60D9716975683904D6B2577 /* GlassCard.swift */,
+				0BA4AA3E8201D415A656C200 /* StarFieldView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7DF4FC43E6D929A5A5491738 /* Zenith */ = {
+			isa = PBXGroup;
+			children = (
+				47C03EEA0E3AE79EAE6F404B /* Assets.xcassets */,
+				7E88EFC1A037F7CCD7B10C58 /* ContentView.swift */,
+				ADC8024AA8B7FBC8CB96DCA7 /* ZenithApp.swift */,
+				F12A5F34765554F375B127DD /* App */,
+				AE646C3999420CED56E0799D /* Core */,
+				8CC4553E50EEAA339D452ADA /* Data */,
+				CF152E5D9BF71202420E2BBB /* Features */,
+				F632AA8669A1DFF917FA25D6 /* Shared */,
+			);
+			path = Zenith;
+			sourceTree = "<group>";
+		};
+		89628EC78714FE450A2E3E56 /* Worlds */ = {
+			isa = PBXGroup;
+			children = (
+				C474BA9A3A2459C6F8F6571C /* WorldsView.swift */,
+			);
+			path = Worlds;
+			sourceTree = "<group>";
+		};
+		8B73A96C62924136BF502A9C /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				CE00B18CEC2BAD645D057477 /* ConstellationData.swift */,
+				A77F88D95442C9A790ABC137 /* ZenithEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		8CC4553E50EEAA339D452ADA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				55E743DE1A580A9C99201061 /* SwiftData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		99D83D1758EE817D524CDD23 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5392F737FD1205799388D3DC /* Color+Extensions.swift */,
+				B01D2FE365963A2D5F804458 /* View+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9FC9C9AFC252E2F696364D2E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9832B1AB7F22C3486EDAF628 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AE646C3999420CED56E0799D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8B73A96C62924136BF502A9C /* Engine */,
+				C35EE11CB2549E143D62D911 /* Models */,
+				058C24BC2085521639B861C2 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B09EF9F6E1B8554DB3619CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				442D81CC67F7BEC92EA98E90 /* Zenith.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35EE11CB2549E143D62D911 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27BB55DDEFB36903C2CCBE0B /* Achievement.swift */,
+				1DF7F1E05884A287B4F503AA /* Constellation.swift */,
+				1562FEADDFCAF9F19AD5351E /* SkyRealm.swift */,
+				4CDEE3056CA44DA44D3B9664 /* ZenithConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF152E5D9BF71202420E2BBB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DC90316AF4888B8332D27697 /* Achievements */,
+				9FC9C9AFC252E2F696364D2E /* Home */,
+				484484050BF2D75F0302CD1B /* Onboarding */,
+				4222E20D5D98296DFB0A99D0 /* Play */,
+				5C8674823CC0FE28074F6243 /* Quiz */,
+				DA7295E7E6549EE9021603C3 /* Settings */,
+				D7CE14F3CD798826D8FC57F1 /* Stats */,
+				89628EC78714FE450A2E3E56 /* Worlds */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D7CE14F3CD798826D8FC57F1 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				1880634614859474283CDD5B /* StatsDetailView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		DA7295E7E6549EE9021603C3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FDDABBD0646A5EB44E0831FB /* SettingsView.swift */,
+				D53816C7FD18DA91F49E41E9 /* ThemePickerView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DC90316AF4888B8332D27697 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				3EA46E2BAB91F009AD721713 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		E7E3383896E0D106F1CA96C7 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				691A2EE353A1B4B66811FE78 /* AllThemes.swift */,
+				C7803E57BF5710AE56D817AE /* Theme.swift */,
+				E62F5A28EA1D27CB16405D33 /* ThemeColors.swift */,
+				E022CBE56E9473FF5F2E7ECE /* ThemeEnvironment.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F12A5F34765554F375B127DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8E1299B78F5DC85543006AA9 /* AppState.swift */,
+				04F323CFFB2E9E0E8F20673A /* Route.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F632AA8669A1DFF917FA25D6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				671FB05DB3ECDE50C7921CE3 /* Components */,
+				99D83D1758EE817D524CDD23 /* Extensions */,
+				E7E3383896E0D106F1CA96C7 /* Theme */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95BDCC334A579D0EAC9FB039 /* Zenith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB97A5EB2B6CC34D80F847AA /* Build configuration list for PBXNativeTarget "Zenith" */;
+			buildPhases = (
+				7C6275036623F1EBCE9939E5 /* Sources */,
+				7838D1BEA581C6F8855E51A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zenith;
+			packageProductDependencies = (
+			);
+			productName = Zenith;
+			productReference = 442D81CC67F7BEC92EA98E90 /* Zenith.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		315114D9A2FF386DD930019F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 874B9B3E0BA319F4772B2B30 /* Build configuration list for PBXProject "Zenith" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0CA9B83ACBDA740FD20886FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95BDCC334A579D0EAC9FB039 /* Zenith */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7838D1BEA581C6F8855E51A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F40E4E3333CE47D33223395 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C6275036623F1EBCE9939E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87BE90B21ACDAC5D2505A14 /* Achievement.swift in Sources */,
+				9242B9B68D388715C1ADF34B /* AchievementRecord.swift in Sources */,
+				E98ABECAC41D860D65F6AA62 /* AchievementsView.swift in Sources */,
+				914A0013F2A7B8A2B93E44FD /* AllThemes.swift in Sources */,
+				0AE1087EF9A5AE674B1EDDB4 /* AppState.swift in Sources */,
+				58B8F7D6CD9DEE9F6E9AA642 /* Color+Extensions.swift in Sources */,
+				8899CA3559371D03FF0441B1 /* ConfettiView.swift in Sources */,
+				8252FA3696A23C3149448D0E /* Constellation.swift in Sources */,
+				D4B85D27E7DF4CE45BE918DC /* ConstellationData.swift in Sources */,
+				25F7828F0D957325B2E6C717 /* ContentView.swift in Sources */,
+				214666E3F43BD36C0EF561B6 /* FloatingOrbsView.swift in Sources */,
+				AB04D42B021FC92C51A06CB7 /* GlassButton.swift in Sources */,
+				B40CD01353FB1EB8ADF4C3E9 /* GlassCard.swift in Sources */,
+				1917CE2499A94286A261B032 /* HapticsService.swift in Sources */,
+				5C75B10D89E5E779167CDB43 /* HomeView.swift in Sources */,
+				40B5798C7772C00E2005DC90 /* LevelRecord.swift in Sources */,
+				4C12141C4D5C2305437C13D3 /* OnboardingView.swift in Sources */,
+				9209C774AE75FEE88B27ABD8 /* PlayView.swift in Sources */,
+				B2E8D0C8ED770ED0FA7405C6 /* PlayViewModel.swift in Sources */,
+				EB9799BCCF55810FAB4B557E /* QuizView.swift in Sources */,
+				6C6A615419D8B6A7C92346FF /* Route.swift in Sources */,
+				BDBE8C7B8EA7EEA2344098AA /* SettingsRecord.swift in Sources */,
+				D411EFA87662FEDF1CEF27F2 /* SettingsView.swift in Sources */,
+				9EAC89BF8FA15C159E973620 /* SkyRealm.swift in Sources */,
+				1A2B1F109522101AEAE9AB67 /* StarCanvasView.swift in Sources */,
+				29A3E0885A7DBE127FE43258 /* StarFieldView.swift in Sources */,
+				6DBF550EC101AC910157926F /* StatsDetailView.swift in Sources */,
+				6FBA142F078B1D55AE592905 /* StatsRecord.swift in Sources */,
+				4DCDC49F7608A5AB029DFDA2 /* Theme.swift in Sources */,
+				DAEB66FD6D40E279FD5A406E /* ThemeColors.swift in Sources */,
+				88128A096BBF56E665F3BDBA /* ThemeEnvironment.swift in Sources */,
+				D5DDD7E995F162AC49F6D159 /* ThemePickerView.swift in Sources */,
+				A381B9DCB69F4F7B6C60F2AD /* View+Theme.swift in Sources */,
+				EB7CAA7944207ED5BE5C6432 /* WorldsView.swift in Sources */,
+				2B2D324258CE6E60A27FABA5 /* ZenithApp.swift in Sources */,
+				3C8CAF73EAAD19E416C8925D /* ZenithConfig.swift in Sources */,
+				5C613811E8A854908F107F08 /* ZenithEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F63B1336B612F6CBE1F3523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34441AB62BAF460C3127497D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.zenith;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		593A8BE15745CF2C96BED232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakan.zenith;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F79DACB008164CEA331CC475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874B9B3E0BA319F4772B2B30 /* Build configuration list for PBXProject "Zenith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79DACB008164CEA331CC475 /* Debug */,
+				1F63B1336B612F6CBE1F3523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB97A5EB2B6CC34D80F847AA /* Build configuration list for PBXNativeTarget "Zenith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593A8BE15745CF2C96BED232 /* Debug */,
+				34441AB62BAF460C3127497D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 315114D9A2FF386DD930019F /* Project object */;
+}

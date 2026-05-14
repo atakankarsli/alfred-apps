@@ -1,0 +1,29 @@
+name: Vital
+options:
+  bundleIdPrefix: com.atakan.vital
+  deploymentTarget:
+    iOS: "18.0"
+  xcodeVersion: "16.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    DEVELOPMENT_TEAM: BTYNKLQT43
+    CODE_SIGNING_ALLOWED: "NO"
+targets:
+  Vital:
+    type: application
+    platform: iOS
+    sources:
+      - Vital
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
+        INFOPLIST_KEY_NSMotionUsageDescription: "Vital uses motion sensors for posture exercises."
+        INFOPLIST_KEY_NSCameraUsageDescription: "Vital uses the camera for eye tracking exercises."
+        SWIFT_STRICT_CONCURRENCY: complete
+        PRODUCT_BUNDLE_IDENTIFIER: com.atakan.vital
